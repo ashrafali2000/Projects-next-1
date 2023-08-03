@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contentContainer{
+  background-color:#c2b17e;
+  margin-top: -80px;
+}
+
+.product-container{
+  display:  flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #c2b17e;
+}
+.HeaderContainer{
+width: 100%;
+
+}
+
+.Products:hover{
+  box-shadow: 4px 4px  16px #a2f1c3;
+transition: 0.5s ease-out;
+}
+.textAlignment{
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  max-width: 900px;
+  font-size: 22px;
+}
+.footerTitle{
+  font-size: 18px;
+  font-weight: 700;
+}
+.Navbar{
+  font-size: 17px;
+  height: 90px;
+  color: rgb(107, 126, 236);
+  font-weight: 400;
+  background: rgb(203, 202, 224);
+  background: linear-gradient(90deg, rgb(12, 5, 141) 0%, rgb(160, 228, 194) 0%, rgba(218, 214, 171, 0.886) 0%);
+}
+
+.footer, .footer a{
+  background-color: #000;
+  color: #fff;
+}
+.footerContainer{
+  margin-top: 100px;
+}
+
+.AllProducts:hover{
+transition: 2s ease-out;
+transform: scale(1.5);
+color: rgb(250, 0, 0);
+border: #11f670 solid 5px;
+background-color: aliceblue;
+}
+.AllProducts{
+  transition: 2s ease-out;
+  transform: scale(1.5);
+  color: rgb(255, 251, 251);
+  border: #ffffff solid 5px;
+  margin: 0px 300px;
+  background-color: black;
+  border-radius: 20px;
+  padding: 6px 40px;
+}
+
+.textDecoration{
+  text-decoration: none;
+  font-size: large;
+}
+.textDecorationRegister{
+  text-decoration: none;
+}
+.toggleBg, .bg{
+  background: rgb(203, 202, 224);
+  background: linear-gradient(90deg, rgb(11, 5, 141) 0%, rgb(160, 228, 194) 0%, rgba(222, 221, 181, 0.886) 0%);
+}
+.myMedia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutTextDecoration {
+  text-decoration: none;
+  font-size: 20px;
+  color: #f0e9e9;
+}
+@media screen and (max-width: 576px) {
+  .myCarousel{
+    width: 200px;
+    height: 100px
+  }
+}
